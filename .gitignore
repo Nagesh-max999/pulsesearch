@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/.env.local
+
+# Env
+.env
+*.env.local
+
+# Uploads / data
+backend/uploads/
+backend/test_uploads/
+backend/data/
+postgres_data/
+redis_data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Models cache
+.cache/
